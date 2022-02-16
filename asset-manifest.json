@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/LuftBnB/static/css/main.fec7d658.chunk.css",
-    "main.js": "/LuftBnB/static/js/main.b0367948.chunk.js",
-    "main.js.map": "/LuftBnB/static/js/main.b0367948.chunk.js.map",
-    "runtime-main.js": "/LuftBnB/static/js/runtime-main.f47ab384.js",
-    "runtime-main.js.map": "/LuftBnB/static/js/runtime-main.f47ab384.js.map",
-    "static/css/2.f716d5d9.chunk.css": "/LuftBnB/static/css/2.f716d5d9.chunk.css",
-    "static/js/2.da926641.chunk.js": "/LuftBnB/static/js/2.da926641.chunk.js",
-    "static/js/2.da926641.chunk.js.map": "/LuftBnB/static/js/2.da926641.chunk.js.map",
-    "index.html": "/LuftBnB/index.html",
-    "static/css/2.f716d5d9.chunk.css.map": "/LuftBnB/static/css/2.f716d5d9.chunk.css.map",
-    "static/css/main.fec7d658.chunk.css.map": "/LuftBnB/static/css/main.fec7d658.chunk.css.map",
-    "static/js/2.da926641.chunk.js.LICENSE.txt": "/LuftBnB/static/js/2.da926641.chunk.js.LICENSE.txt",
-    "static/media/global.scss": "/LuftBnB/static/media/brown-regular.6e6b7bdf.otf"
+    "main.css": "/LuftBnBUi/static/css/main.3279cec5.chunk.css",
+    "main.js": "/LuftBnBUi/static/js/main.b0367948.chunk.js",
+    "main.js.map": "/LuftBnBUi/static/js/main.b0367948.chunk.js.map",
+    "runtime-main.js": "/LuftBnBUi/static/js/runtime-main.31519823.js",
+    "runtime-main.js.map": "/LuftBnBUi/static/js/runtime-main.31519823.js.map",
+    "static/css/2.f716d5d9.chunk.css": "/LuftBnBUi/static/css/2.f716d5d9.chunk.css",
+    "static/js/2.da926641.chunk.js": "/LuftBnBUi/static/js/2.da926641.chunk.js",
+    "static/js/2.da926641.chunk.js.map": "/LuftBnBUi/static/js/2.da926641.chunk.js.map",
+    "index.html": "/LuftBnBUi/index.html",
+    "static/css/2.f716d5d9.chunk.css.map": "/LuftBnBUi/static/css/2.f716d5d9.chunk.css.map",
+    "static/css/main.3279cec5.chunk.css.map": "/LuftBnBUi/static/css/main.3279cec5.chunk.css.map",
+    "static/js/2.da926641.chunk.js.LICENSE.txt": "/LuftBnBUi/static/js/2.da926641.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/LuftBnBUi/static/media/brown-regular.6e6b7bdf.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f47ab384.js",
+    "static/js/runtime-main.31519823.js",
     "static/css/2.f716d5d9.chunk.css",
     "static/js/2.da926641.chunk.js",
-    "static/css/main.fec7d658.chunk.css",
+    "static/css/main.3279cec5.chunk.css",
     "static/js/main.b0367948.chunk.js"
   ]
 }

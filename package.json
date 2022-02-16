@@ -35,7 +35,7 @@
     "web-vitals": "^1.1.2",
     "yup": "^0.32.11"
   },
-  "homepage": "https://dan-ch.github.io/LuftBnB",
+  "homepage": "https://dan-ch.github.io/LuftBnBUi",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -1,0 +1,17 @@
+.bottom-navbar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+
+.Mui-selected{
+  color: $light-red;
+
+  & > svg {
+    color: $light-red;
+  }
+}
+.MuiBottomNavigationAction-root:hover{
+  color: $light-red;
+}

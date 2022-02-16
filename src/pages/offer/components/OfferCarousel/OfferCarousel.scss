@@ -1,0 +1,10 @@
+.offer-carousel{
+  max-width: 800px;
+  margin: 10px auto 0 auto;
+
+  &__image{
+    width: 100%;
+    object-fit: contain;
+  }
+
+}

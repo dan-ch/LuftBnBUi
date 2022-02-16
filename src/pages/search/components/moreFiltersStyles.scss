@@ -1,0 +1,64 @@
+.more-filters{
+  @include centerXY;
+  flex-direction: column;
+  width: 100%;
+
+  &__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    max-width: 730px;
+    padding: 24px;
+
+
+  }
+
+  &__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid $light-grey;
+    padding: 16px;
+
+  }
+
+  &__price{
+    padding-bottom: 16px;
+    width: 100%;
+
+    & > span {
+      padding: 24px 0;
+      width: 300px;
+    }
+
+    &__inputs{
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__property-type{
+    border-top: 1px solid $light-grey;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    width: 100%;
+
+    & > h2 {
+      padding-bottom: 24px;
+    }
+  }
+
+  &__facilities{
+    border-top: 1px solid $light-grey;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+
+    & > h2 {
+      padding-bottom: 24px;
+    }
+  }
+}

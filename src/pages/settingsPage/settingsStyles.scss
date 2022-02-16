@@ -1,0 +1,41 @@
+.settings{
+  @include content-wrapper;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+  &__divider{
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+
+  & > Button {
+    width: 200px;
+    align-self: center;
+  }
+}
+
+.user-offer-tile{
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+
+  & > a{
+    color: $light-red;
+  }
+
+  & > p {
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  &--delete {
+    color: #5468ff;
+  }
+
+
+}

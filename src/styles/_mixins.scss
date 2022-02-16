@@ -1,0 +1,13 @@
+@mixin centerXY{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin content-wrapper{
+  width: 100%;
+  max-width: 975px;
+  margin: 0 auto;
+  padding: 16px 16px 70px;
+}
+

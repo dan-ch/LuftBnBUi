@@ -1,0 +1,54 @@
+.tile-offer{
+  padding-top: 46px;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  &__image{
+    position: relative;
+    margin-top: 10px;
+
+    & > img {
+      display: block;
+      max-height: 450px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid $light-grey;
+    }
+  }
+
+  &__icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: grey;
+
+    &:hover{
+      cursor: pointer;
+      color: red;
+    }
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  &__description{
+    width: 100%;
+    color: $grey;
+    font-size: 16px;
+
+    &__price-per-day{
+      color: black;
+    }
+
+    & > p {
+      padding-top: 5px;
+
+    }
+  }
+}

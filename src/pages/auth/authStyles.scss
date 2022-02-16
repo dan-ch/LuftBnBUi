@@ -1,0 +1,62 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 50px;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 25px;
+    max-width: 400px;
+
+    & > p {
+      padding-top: 20px;
+      color: #989898;
+      font-weight: 500;
+    }
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    max-width: 400px;
+    width: 80%;
+
+    &--sign-in {
+      min-height: 250px;
+    }
+
+    &--sign-up {
+      min-height: 500px;
+    }
+  }
+
+  &__footer {
+    @include centerXY;
+    padding-top: 10px;
+    & > p {
+      font-weight: 500;
+      color: #989898;
+      padding-right: 5px;
+    }
+
+    & > a {
+      font-weight: bold;
+      color: #1976d2;
+    }
+
+  }
+}
+
+.MuiButton-root, .MuiButton-root:hover{
+  background-color: $light-red;
+}
+

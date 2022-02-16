@@ -1,0 +1,95 @@
+.offer{
+  @include content-wrapper;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  margin-bottom: 66px;
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 16px 0 16px;
+
+    & > svg:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__content{
+    padding: 24px;
+  }
+
+  &__title{
+    text-align: start;
+  }
+
+  &--clickable-text{
+    text-decoration: underline;
+    color: $grey;
+  }
+
+  &__info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  &__ratings{
+    @include centerXY;
+    margin-right: 6px;
+
+    & > p {
+      margin-left: 3px;
+    }
+
+    & > svg {
+      color: $light-red;
+    }
+
+  }
+
+  &__host-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  &__description{
+    padding-top: 24px;
+  }
+
+  &__reservation{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    @media (min-width: 650px) {
+      font-size: 26px;
+      flex-direction: row;
+      align-content: space-around;
+    }
+  }
+
+  &__opinion-fetch-wrapper{
+    padding-top: 15px;
+    @include content-wrapper;
+    @include centerXY;
+  }
+
+  &__opinion-refresh-button{
+    color: white
+  }
+
+  &__divider{
+    border: 1px solid $light-grey;
+    margin-top: 24px;
+  }
+}
